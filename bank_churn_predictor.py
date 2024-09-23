@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
 
-dataset = pd.read_csv("C:/Users/hacho/Downloads/Machine-Learning/Artifical-Neural-Network/bank_churn_venv/Churn_Modelling.csv")
+dataset = pd.read_csv("Churn_Modelling.csv")
 X = dataset.iloc[:, 3:-1].values
 y = dataset.iloc[:, -1].values
 
